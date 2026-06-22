@@ -3,6 +3,7 @@ import CardDestino from "@/app/components/CardDestino/CardDestino";
 import Link from "next/link";
 import styles from "./page.module.css";
 
+// Renderiza um CardDestino para cada destino do Array
 export default function Destinos() {
     return (
         <div>

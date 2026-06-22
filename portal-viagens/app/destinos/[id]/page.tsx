@@ -6,8 +6,11 @@ type Props = {
     params: Promise<{ id: string }>;
 }
 
+
 export default async function DetalheDestino({ params }: Props) {
+    // Aguarda a promise para obter os parâmetros
     const { id } = await params;
+    // Busca o destino com o ID correspondente
     const destino = destinos.find((d) => d.id === Number(id));
 
     if (!destino) {

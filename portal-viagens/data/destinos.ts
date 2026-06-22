@@ -1,3 +1,4 @@
+// Array local que simula os dados dos destinos turisticos
 const destinos = [
   {
     id: 1,

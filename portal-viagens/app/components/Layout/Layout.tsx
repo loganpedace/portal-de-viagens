@@ -1,6 +1,7 @@
 import Link from "next/link";
 import styles from "./Layout.module.css";
 
+// Componente de layout reutilizável com header, nav e footer
 export default function Layout({ children }: { children: React.ReactNode }) {
     return (
         <div className={styles.container}>
