@@ -4,7 +4,7 @@ Aplicação WEB desenvolvida com Next.js que simula um portal de viagens simples
 
 ## 💻 Tecnologia Utilizada
 
-- [Next.js 15](https://nextjs.org/)
+- [Next.js 16.2.9](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [CSS Modules](https://github.com/css-modules/css-modules)
 
